@@ -19,4 +19,3 @@ ENTRYPOINT /usr/src/app/semanticturkey-4.0.2/bin/karaf
 
 # Expose port 1979 (where ST runs by default)
 EXPOSE 1979
-RUN docker --rm -it -p 1979:1979 matthieubosquet/vocbench:latest
