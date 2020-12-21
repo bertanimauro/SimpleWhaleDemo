@@ -38,6 +38,3 @@ jobs:
           file: ./Dockerfile
           builder: ${{ steps.buildx.outputs.name }}
           push: matthieubosquet/vocbench:latest
-      -
-        name: Image digest
-        run: matthieubosquet/vocbench:latest --rm -it -p 1979:1979
