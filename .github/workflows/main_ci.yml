@@ -46,7 +46,6 @@ jobs:
           file: ./Dockerfile
           builder: ${{ steps.buildx.outputs.name }}
           push: true
-          tag: matthieubosquet/vocbench:3-4.0.2-port80
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
