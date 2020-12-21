@@ -37,7 +37,7 @@ jobs:
           context: ./ 
           file: ./Dockerfile
           builder: ${{ steps.buildx.outputs.name }}
-          pull: matthieubosquet/vocbench:3-4.0.2-port80
+          push: matthieubosquet/vocbench:3-4.0.2-port80
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
