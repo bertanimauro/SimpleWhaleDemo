@@ -40,4 +40,4 @@ jobs:
           push: matthieubosquet/vocbench:latest
       -
         name: Image digest
-        run: --rm -it -p 1979:1979 matthieubosquet/vocbench:latest
+        run: -rm -it -p 1979:1979 matthieubosquet/vocbench:latest
