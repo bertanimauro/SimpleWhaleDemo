@@ -1,3 +1,3 @@
 # docker-VocBench
 
-some help
+Use github action to run vocBench. I need some help
